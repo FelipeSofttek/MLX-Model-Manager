@@ -20,7 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MLXLMCommon",
+            name: "MLXLMCommonn",
             dependencies: [
                 .product(name: "MLX", package: "mlx-swift"),
                 .product(name: "MLXNN", package: "mlx-swift"),
@@ -28,7 +28,7 @@ let package = Package(
                 .product(name: "MLXRandom", package: "mlx-swift"),
                 .product(name: "Transformers", package: "swift-transformers"),
             ],
-            path: "Sources/MLXLMCommon",
+            path: "Sources/MLXLMCommonn",
             exclude: [
                 "README.md"
             ],
@@ -39,7 +39,7 @@ let package = Package(
         .target(
             name: "MLXModelManager",
             dependencies: [
-                "MLXLMCommon",
+                "MLXLMCommonn",
                 .product(name: "MLX", package: "mlx-swift"),
                 .product(name: "MLXFast", package: "mlx-swift"),
                 .product(name: "MLXNN", package: "mlx-swift"),
