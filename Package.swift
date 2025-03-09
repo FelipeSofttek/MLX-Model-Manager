@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ml-explore/mlx-swift", from: "0.21.3"),
-        .package(url: "https://github.com/FelipeSofttek/swift-transformers", branch: "main"),
+        .package(url: "https://github.com/huggingface/swift-transformers", branch: "main"),
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.5.0"),
         .package(url: "https://github.com/1024jp/GzipSwift", "6.0.1" ... "6.0.1"),
         .package(url: "https://github.com/apple/swift-async-algorithms", from: "1.0.3"),
